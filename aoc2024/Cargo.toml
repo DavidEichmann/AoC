@@ -1,0 +1,9 @@
+[package]
+name = "aoc2024"
+version = "0.1.0"
+edition = "2021"
+default-run = "day01"
+
+[dependencies]
+clap = { version = "4.5.21", features = ["derive"] }
+itertools = "0.13.0"
